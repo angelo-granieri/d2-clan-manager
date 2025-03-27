@@ -1,4 +1,5 @@
 node_modules
+bun.lockb
 
 # Output
 .output
@@ -24,3 +25,18 @@ vite.config.ts.timestamp-*
 
 # Paraglide
 src/lib/paraglide
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.idea
+.vscode
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
