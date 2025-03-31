@@ -1,5 +1,7 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"hello_world": "Ciao {name}, eccoci su Svelte!",
-	"loading_player": "Caricamento profilo giocatore..."
+	"loading_player": "Caricamento profilo giocatore...",
+	"sign_in": "Accedi",
+	"sign_out": "Esci"
 }

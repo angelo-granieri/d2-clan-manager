@@ -1,5 +1,5 @@
 const API_BASE_URL = 'https://www.bungie.net/Platform';
-const API_KEY = 'fae58260f5ce40468d70bdcc94875406'; // Replace with your Bungie API key
+const API_KEY = ''; // Replace with your Bungie API key
 
 /**
  * Fetches the player's profile from the Bungie API.
