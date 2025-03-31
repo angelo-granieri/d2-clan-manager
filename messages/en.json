@@ -1,5 +1,7 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"hello_world": "Hello {name}, welcome to Svelte!",
-	"loading_player": "Loading player profile..."
+	"loading_player": "Loading player profile...",
+	"sign_in": "Sign in",
+	"sign_out": "Sign out"
 }

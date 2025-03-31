@@ -37,6 +37,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"@auth/sveltekit": "^1.8.0",
 		"@inlang/paraglide-sveltekit": "^0.15.5",
 		"daisyui": "^5.0.4"
 	}
