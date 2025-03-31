@@ -9,8 +9,11 @@ const config = {
 
 	kit: {
 		adapter: adapter(
-			{fallback: 'error.html'}
-		)
+			{ fallback: 'error.html' }
+		),
+		paths: {
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+		},
 	}
 };
 
