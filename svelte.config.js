@@ -8,12 +8,10 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter(
-			{ fallback: 'error.html' }
-		),
+		adapter: adapter({ fallback: 'error.html' }),
 		paths: {
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-		},
+		}
 	}
 };
 

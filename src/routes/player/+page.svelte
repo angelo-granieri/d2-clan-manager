@@ -2,7 +2,7 @@
 	import * as m from '$lib/paraglide/messages';
 	import { getPlayerProfile } from '$lib/services/bungieApi';
 
-	let playerProfile: any = null;
+	let playerProfile: Record<string, unknown> | null = null;
 
 	const fetchPlayerProfile = async () => {
 		try {
